@@ -8,29 +8,28 @@ differnece between echo and print.
 
 1. Speed
 
-...echo is faster than print since it dosen't have a return value. In PHP
-...print statement always retun 1.
+    echo is faster than print since it dosen't have a return value. In PHP print statement always retun 1.
 
 2. Parameters
 
-...echo can take multiple parameters.
+    echo can take multiple parameters.
 
 
-```php
-<?php 
-   echo "first param", "second param", "third param";
-?>
-```
+	```php
+	<?php 
+	   echo "first param", "second param", "third param";
+	?>
+	```
 
-...print can only take one parameter
+    print can only take one parameter
 
 
-```php
-<?php 
-   print "first param";
-?>
-```
+	```php
+	<?php 
+	   print "first param";
+	?>
+	```
 
 3. Expression
 
-...print can be used as a part of an expression since it behaves like a function where echo cannot.
+    print can be used as a part of an expression since it behaves like a function where echo cannot.
