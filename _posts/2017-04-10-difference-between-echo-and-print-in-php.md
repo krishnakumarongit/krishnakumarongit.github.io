@@ -19,7 +19,7 @@ differnece between echo and print.
 	   echo "first param", "second param", "third param";
 	?>
 	```
-    print can only take one parameter
+    print can only take one parameter.
 
 	```php
 	<?php 
@@ -29,4 +29,8 @@ differnece between echo and print.
 
 3. Expression
 
-    print can be used as a part of an expression since it behaves like a function where echo cannot.
+    print can be used as a part of an expression since it behaves like a function where echo canno't.
+
+Useful links: [print](http://php.net/manual/en/function.print.php), [echo](http://php.net/manual/en/function.echo.php)
+
+
