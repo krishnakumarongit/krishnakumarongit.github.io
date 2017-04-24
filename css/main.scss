@@ -4,3 +4,13 @@
 
 //Import
 @import "base", "mixin", "typography", "layout", "syntax.scss", "custom.scss";
+
+
+.post + .post::before {
+    background-color: #e6e6e6 !important;
+    content: "" !important;
+    display: block !important;
+    height: 1px !important;
+    margin: 1px auto !important;
+    width: 5rem !important;
+}
